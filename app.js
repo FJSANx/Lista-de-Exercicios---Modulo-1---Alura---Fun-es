@@ -14,7 +14,7 @@ greet();
 function calcularDobro(numero) {
     return numero * 2;
 }
-    let resultadoDobro = calcularDobro(5);
+    let resultadoDobro = calcularDobro(8);
   console.log(resultadoDobro);
 
 // 4. Criar uma função que recebe três números como parâmetros e retorna a média deles.
@@ -22,7 +22,7 @@ function calcularMedia(a, b, c) {
     return (a + b + c) / 3;
   }
   
-  let media = calcularMedia(4, 7, 10);
+  let media = calcularMedia(8, 20, 50);
   console.log(media);
 
 //5. Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
@@ -30,7 +30,7 @@ function encontrarMaior(a, b) {
     return a > b ? a : b;
   }
   
-  let maiorNumero = encontrarMaior(15, 9);
+  let maiorNumero = encontrarMaior(26, 32);
   console.log(maiorNumero);
 
 // 6. Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo.
@@ -38,5 +38,5 @@ function quadrado(numero) {
   return numero * numero;
 }
 
-let resultado = quadrado(2);
+let resultado = quadrado(8);
 console.log(resultado); 
